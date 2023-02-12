@@ -35,7 +35,7 @@ const renderCalendar = () => {
     document.querySelector('.date h1').innerHTML = months[date.getMonth()]
 
     // Display Date in P
-    document.querySelector('.date p').innerHTML = date.toDateString()
+    document.querySelector('.date p').innerHTML = new Date().toDateString()
 
     // create calendar days
     let days = ''

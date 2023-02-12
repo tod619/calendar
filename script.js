@@ -15,4 +15,8 @@ const months = [
     'December'
 ]
 
+// Display Month in H1
 document.querySelector('.date h1').innerHTML = months[date.getMonth()]
+
+// Display Date in P
+document.querySelector('.date p').innerHTML = date.toDateString()
